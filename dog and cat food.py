@@ -1,0 +1,6 @@
+dog_food = float(2.50)
+cat_food = float(4.00)
+number_of_dogsfood_packages = int(input())
+number_of_catsfood_packages = int(input())
+total_sum = float(dog_food*number_of_dogsfood_packages + cat_food*number_of_catsfood_packages)
+print(f"{total_sum} lv.")

@@ -1,0 +1,7 @@
+sq_meters_to_green = float(input())
+price_per_sqmeter = float(7.61)
+total_price = float(sq_meters_to_green * price_per_sqmeter)
+discount = float(0.18 * total_price)
+end_price = float(total_price - discount)
+print(f"The final price is: {end_price} lv.")
+print(f"The discount is {discount} lv.")
